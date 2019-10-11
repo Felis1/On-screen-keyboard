@@ -28,8 +28,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
   }
 
-
-
-
-
 });
