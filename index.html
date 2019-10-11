@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>On-screen keyboard</title>
+</head>
+
+<body>
+  <div class="">
+    <input type="text" class="searchForm">
+    <button type="button" name="button" id="open-keyboard">Open keyboard</button>
+  </div>
+  <div class="keyboard" style="top: -70%; position: absolute;">
+    <div class="keyboard-wrapper" style="width: 495px; user-select: none; left: 629px; top: 231px;" tabindex="-1">
+      <table style="margin: 0; padding: 0; user-select: none;">
+        <tbody style="user-select: none;">
+          <tr style="user-select: none;">
+            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+              <div dir="ltr" style="width: 100%; user-select: none;">
+                <div style="text-align: left; user-select: none; display: flex; justify-content: space-between;">
+                  <span>клавіатура</span>
+                  <span id="close-keyboard" style="cursor: pointer">X</span>
+                </div>
+                <div style="right: 0; padding-right: 14px; user-select: none;">
+                  <div style="user-select: none;"></div>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr style="user-select: none;">
+            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+              <table dir="ltr" style="margin: 0; padding: 0; direction: ltr; user-select: none; display: block;">
+                <tbody style="user-select: none;">
+                  <tr style="user-select: none;">
+                    <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                      <table style="margin: 0; padding: 0; user-select: none;">
+                        <tbody style="user-select: none;">
+                          <tr style="user-select: none;">
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">1
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">2
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">3
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">4
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">5
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">6
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">7
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">8
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">9
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">0
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">-
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">=
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button id="keyboard-backspace" style="margin: 2px; width: 62px; height: 29px; user-select: none;">⬅
+                              </button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr style="user-select: none;">
+                    <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                      <table style="margin: 0; padding: 0; user-select: none;">
+                        <tbody style="user-select: none;">
+                          <tr style="user-select: none;">
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 45px; height: 29px; visibility: hidden; user-select: none;"></button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">й
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">ц
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">у
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">к
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">е
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">н
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">г
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">ш
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">щ
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">з
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">х
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">ъ
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 45px; height: 29px; visibility: hidden; user-select: none;"></button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr style="user-select: none;">
+                    <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                      <table style="margin: 0; padding: 0; user-select: none;">
+                        <tbody style="user-select: none;">
+                          <tr style="user-select: none;">
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 54px; height: 29px; visibility: hidden ;user-select: none;"></button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">ф
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">і
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">в
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">а
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">п
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">р
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">о
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">л
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">д
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">ж
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">э
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 70px; height: 29px; visibility: hidden; user-select: none;"></button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr style="user-select: none;">
+                    <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                      <table style="margin: 0; padding: 0; user-select: none;">
+                        <tbody style="user-select: none;">
+                          <tr style="user-select: none;">
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 70px; height: 29px; visibility: hidden; user-select: none;"></button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">я
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">ч
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">с
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">м
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">и
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">т
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">ь
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">б
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">ю
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 29px; height: 29px; user-select: none;">.
+                              </button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 87px; height: 29px; visibility: hidden; user-select: none;"></button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr style="user-select: none;">
+                    <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                      <table style="margin: 0; padding: 0; user-select: none;">
+                        <tbody style="user-select: none;">
+                          <tr style="user-select: none;">
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 95px; height: 29px; user-select: none; visibility: hidden"></button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 293px; height: 29px; user-select: none;"></button>
+                            </td>
+                            <td style="margin: 0; padding: 0; border: 0 none; user-select: none;">
+                              <button style="margin: 2px; width: 95px; height: 29px; user-select: none; visibility: hidden"></button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
